@@ -8,3 +8,6 @@ const mailify = (name) => {
   }
   console.log(mailify('myemail.test'))
   
+  test('test mailify', () => {
+    expect(console.log).toBe('myemail.test@mail.com');
+  });
