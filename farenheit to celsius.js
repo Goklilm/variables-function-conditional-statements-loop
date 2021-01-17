@@ -5,3 +5,6 @@ const add = (a) => {
 
 const result = add(38) 
 console.log(result)
+test('test farenhait to celsius', () => {
+    expect(console.log).toBe(100.4);
+  });
